@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/darker_gray"
+    android:background="#ecf0f1"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
         android:text="I am poor"
-        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="40sp" />
 
     <ImageView
